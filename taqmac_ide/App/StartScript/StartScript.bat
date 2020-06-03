@@ -3,6 +3,10 @@ set delay=1
 
 mkdir "%~dp0..\..\Data\tmp"
 
+IF NOT EXIST %CD%\App\eclipse\configuration (
+	7za.exe x %CD%\App\eclipse\configuration.zip -aoa -o*
+)
+
 if exist "%CD%\App\eclipse\jre\bin\javaws.exe" (
   start /d "%~dp0..\eclipse" eclipse.exe
 ) else (
