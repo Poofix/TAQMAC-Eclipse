@@ -45,7 +45,7 @@ To read documentation about TAQMAC Domain Specific Language, [click here](https:
 
 ## Create a TAQMAC project
 
-Open TAQMAC IDE, then :
+In TAQMAC IDE :
 
 1. Navigate to **File** &rightarrow; **New** &rightarrow; **Project...**.
 
@@ -56,6 +56,29 @@ Open TAQMAC IDE, then :
 ![workspace](img/workspace.png)
 
 Your TAQMAC project appears in your project list on the left pane of the application.
+
+## Integrate Git repository for versionning, Continuous Integration and Continuous Delivery
+
+Open TAQMAC IDE, then : 
+
+1. On the top-right hand side of the window, click on the button to open a new perspective : ![perspective](img/newPerspective.png).
+
+2. Select **Git** then click **Open**.
+
+3. On the left pane of TAQMAC IDE, click **Clone a repository**.
+
+4. In the **URI** field, enter `https://github.com/adrienstora/taqmac-dsl` then click **Next >**.
+
+5. Select **master** only then click **Next >**.
+
+6. Click **Browse** then browse to your TAQMAC project folder then click **Save** and **Finish**.
+
+> NOTE: Cloning the repository can take a few minutes.
+
+7. On the top-right hand side of the window, click on the button to go back to the project perspective : ![perspective](img/projectPerspective.png).
+
+8. On the left pane of TAQMAC IDE, if you do not see a `taqmac-dsl` folder, right-click on the folder and click **Refresh**.
+
 
 ## Create a .tqmc file
 
@@ -85,11 +108,15 @@ To build a TAQMAC project and generate the application, you can :
 
 ## Deploy a TAQMAC project
 
-To deploy the built TAQMAC project, you can :
+To deploy the built TAQMAC project, in TAQMAC IDE :
 
-TODO push sur taqmac-dsl/master
+1. On the top-right hand side of the window, click on the button to open the Git perspective : ![perspective](img/gitPerspective.png).
 
-The deployed TAQMAC project will be then available at this address : [http://taqmac-dsl.herokuapp.com](http://taqmac-dsl.herokuapp.com)
+2. On the left pane of TAQMAC IDE, right-click on `taqmac-dsl` repository then click **Commit...**.
+
+3. On the bottom pane of TAQMAC IDE, enter something in **Commit Message** field then click **Commit and Push...**.
+
+The deployed TAQMAC project will be then available after a few minutes at this address : [http://taqmac-dsl.herokuapp.com](http://taqmac-dsl.herokuapp.com)
 
 
 # Frequently Asked Questions
