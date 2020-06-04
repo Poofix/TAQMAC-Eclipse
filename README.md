@@ -10,7 +10,7 @@ This IDE is portable, includes all its dependencies and can be used on any Windo
 
 TAQMAC is a Domain Specific Language thought for assisting webmasters in the creation of _Visit us_ or _Contact_ page of companies websites through a natural language easily understandable by non-developers.
 
-To read documentation about TAQMAC Domain Specific Language, click here [TODO link to taqmac-dsl/dev readme].
+To read documentation about TAQMAC Domain Specific Language, [click here](https://github.com/adrienstora/taqmac-dsl/blob/master/README.md).
 
 
 # Installation guide
